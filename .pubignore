@@ -1,0 +1,17 @@
+# Excluded from `flutter pub publish` uploads.
+# These either aren't part of the package or live elsewhere on GitHub.
+
+Demo/
+notes/
+screenshots/
+
+# Build / tooling artifacts
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+pubspec.lock
+
+# Don't ship Claude's working memory either
+.claude/
